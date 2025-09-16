@@ -27,7 +27,7 @@ chown -R nomad:nomad /etc/nomad.d/
 
 # Create server configuration
 cat > /etc/nomad.d/server.hcl << 'EOF'
-datacenter = "azure-east-us"
+datacenter = "azure-central-india"
 data_dir = "/opt/nomad/data"
 log_level = "INFO"
 
