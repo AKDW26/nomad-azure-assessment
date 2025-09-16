@@ -1,6 +1,6 @@
 # nomad-jobs/hello-world.nomad
 job "hello-world" {
-  datacenters = ["azure-east-us"]
+  datacenters = ["azure-central-india"]  
   type = "service"
 
   group "web" {
