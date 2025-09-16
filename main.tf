@@ -16,7 +16,7 @@ provider "azurerm" {
 # Resource Group
 resource "azurerm_resource_group" "nomad" {
   name     = "rg-nomad-cluster"
-  location = "East US"
+  location = "Central India"  
 }
 
 # Virtual Network
